@@ -11,7 +11,7 @@ namespace SimpleDarts
         {
             int pointsThisThrow;
             int critChance = critChanceRandom.Next(1, 101);
-            if (dartValue == 0 && critChance < 5) { pointsThisThrow = 0; }
+            if (dartValue == 0 && critChance < 5) pointsThisThrow = 0; 
             else if (dartValue == 0)
             {
                 if (critChance > 75) pointsThisThrow = 50;
